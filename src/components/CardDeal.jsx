@@ -14,8 +14,14 @@ const CardDeal = () => {
         <p className='max-w-[470px] mt-5 font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]'>Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.</p>
 
         <Button propStyles="mt-10" />
-
       </div>
+
+
+       {/*scan credit card section */}
+       <div className='flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative'>
+        <img src={card} alt="card" className='w-[100%] h-[100%]'/>
+
+       </div>
     </section>
   )
 }
