@@ -3,7 +3,7 @@ import { clients } from '../constants'
 
 const ClientsAPP = () => {
   return (
-    <section className='flex justify-center items-centermy-4'>
+    <section className='flex justify-center items-center my-4'>
       
 
       {/* company logo here  */}
